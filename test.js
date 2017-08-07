@@ -1,12 +1,36 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import tempLate from "./"
+import pluck from "./"
 
 test(({same, end}) => {
   same(
-    tempLate(true),
-    false
+    pluck(
+      ["attributes", "name"]
+    )(
+      [
+        {
+          id: "1",
+          attributes: {
+            name: "Kurtis",
+            age: 29,
+            height: "5'10\"",
+          },
+        },
+        {
+          id: "2",
+          attributes: {
+            name: "Chris",
+            age: 29,
+            height: "5'8\"",
+          },
+        },
+      ]
+    ),
+    [
+      "Kurtis",
+      "Chris"
+    ]
   )
 
   end()
