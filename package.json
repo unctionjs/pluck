@@ -51,8 +51,8 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/keychain": "1.0.1",
-    "@unction/mapvalues": "2.0.4",
+    "@unction/keychain": "2.0.0",
+    "@unction/mapvalues": "3.0.0",
     "ramda": "0.24.1"
   },
   "nyc": {
