@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@unction/keychain": "2.3.0",
-    "@unction/mapvalues": "3.3.0",
+    "@unction/mapvalues": "3.5.0",
     "ramda": "0.24.1"
   },
   "nyc": {
