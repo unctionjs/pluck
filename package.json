@@ -52,7 +52,7 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/keychain": "2.45.0",
+    "@unction/keychain": "3.0.0",
     "@unction/mapvalues": "4.0.0",
     "ramda": "0.24.1"
   },
