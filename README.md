@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyChainType -> FunctorType -> Array<any>
+> KeyChainType => FunctorType => Array<any>
 
 Given a keychain and records return the values at the keychain for each record.
 
