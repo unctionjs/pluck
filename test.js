@@ -1,10 +1,8 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
-import {test} from "tap"
-
 import pluck from "./index"
 
-test(({same, end}) => {
-  same(
+test("pluck", () => {
+  expect(
     pluck(
       ["attributes", "name"]
     )(
@@ -26,12 +24,11 @@ test(({same, end}) => {
           },
         },
       ]
-    ),
+    )
+  ).toEqual(
     [
       "Kurtis",
       "Chris"
     ]
   )
-
-  end()
 })

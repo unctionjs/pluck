@@ -51,16 +51,8 @@
     "jest": "23.0.0"
   },
   "dependencies": {
-    "@unction/keychain": "8.1.0",
-    "@unction/mapvalues": "9.0.0",
-    "ramda": "0.24.1"
-  },
-  "nyc": {
-    "require": [
-      "babel-register"
-    ],
-    "sourceMap": false,
-    "instrument": false
+    "@unction/dig": "1.0.1",
+    "@unction/mapvalues": "9.0.0"
   },
   "files": [
     "transpiled/index.js"
