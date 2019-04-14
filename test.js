@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import pluck from "./index"
+import pluck from "./index";
 
 test("pluck", () => {
   expect(
@@ -28,7 +28,7 @@ test("pluck", () => {
   ).toEqual(
     [
       "Kurtis",
-      "Chris"
+      "Chris",
     ]
-  )
-})
+  );
+});
