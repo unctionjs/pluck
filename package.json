@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/pluck#readme",
   "repository": "github:unctionjs/pluck",
   "bugs": "https://github.com/unctionjs/pluck/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "scripts": {
     "prepublishOnly": "npm run build",
     "test": "NODE_ENV=test tap --100 './test.js'",
@@ -62,7 +62,7 @@
     "browser.js.map"
   ],
   "module": "index.js",
-  "browser": "transpiled/browser.js",
+  "browser": "browser.js",
   "nyc": {
     "require": [
       "@babel/register"
