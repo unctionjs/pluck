@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@unction/dig": "1.0.1",
-    "@unction/mapvalues": "9.0.0"
+    "@unction/mapvalues": "10.1.0"
   },
   "files": [
     "index.js",
