@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyChainType => KeyedEnumerableType => ArrayType
+> KeyChainType => KeyedEnumerableType<B, A> => Array<B>
 
 Given a keychain and records return the values at the keychain for each record.
 

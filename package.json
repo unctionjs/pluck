@@ -57,7 +57,7 @@
     "@unction/mapvalues": "10.6.0"
   },
   "files": [
-    "index.js",
+    "index.ts",
     "main.js",
     "main.js.map",
     "browser.js",
@@ -71,5 +71,6 @@
     ],
     "sourceMap": false,
     "instrument": false
-  }
+  },
+  "types": "types.d.ts"
 }
