@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import pluck from "./";
+import pluck from "./index.ts";
 
 test("pluck", () => {
   expect(
