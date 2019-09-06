@@ -53,7 +53,7 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/dig": "1.6.0",
+    "@unction/dig": "1.7.0",
     "@unction/mapvalues": "10.6.0"
   },
   "files": [
