@@ -1,6 +1,6 @@
 {
   "name": "@unction/pluck",
-  "version": "10.7.1",
+  "version": "10.8.0",
   "description": "Given a keychain and records return the values at the keychain for each record",
   "keywords": [
     "unction",
