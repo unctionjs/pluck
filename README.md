@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyChainType => KeyedEnumerableType<B, A> => Array<B>
+> KeyChainType => Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string => Array<B>
 
 Given a keychain and records return the values at the keychain for each record.
 
